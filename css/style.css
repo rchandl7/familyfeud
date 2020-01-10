@@ -30,7 +30,7 @@ overflow: auto;
 	display: none;
 	font-size: 65px;
 	color: #2f17c7;
-	text-shadow: 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fff, 0 0 30px #7d2a2a, 0 0 35px #7d2a2a, 0 0 50px #7d2a2a, 0 0 60px #7d2a2a, 0 0 100px #7d2a2a;
+	text-shadow: 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fff, 0 0 30px #1e5799, 0 0 35px #1e5799, 0 0 50px #1e5799, 0 0 60px #1e5799, 0 0 100px #1e5799;
 }
 @-webkit-keyframes flash {
 	0% { opacity: 1; } 
@@ -92,7 +92,7 @@ overflow: auto;
   min-width: 305px;
   margin: auto;
 
-  background: url('../agulogo-trans.png') #7d2a2a;
+  background: url('../agulogo-trans.png') ##1e5799;
   background-size: 33px 35px;
   /*background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/40041/bgFF.svg') #84151b;*/
   /*background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/40041/bgFF.svg') #3a84c3;*/
@@ -285,7 +285,7 @@ overflow: auto;
 }
 
 .diyak{
-	color: #7d2a2a;
+	color: #1e5799;
 	left:0;
 	right:0;
 	bottom:0px;
