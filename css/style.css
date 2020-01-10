@@ -92,11 +92,9 @@ overflow: auto;
   min-width: 305px;
   margin: auto;
 
-  background: url('../agulogo-trans.png') ##1e5799;
+  background: url('../agulogo-trans.png') #1e5799;
   background-size: 33px 35px;
-  /*background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/40041/bgFF.svg') #84151b;*/
-  /*background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/40041/bgFF.svg') #3a84c3;*/
-  background-repeat: repeat;
+  \  background-repeat: repeat;
   background-position: center center;
   -webkit-box-shadow: 0 1px 24px 1px rgba(0, 0, 0, 0.48);
   -moz-box-shadow: 0 1px 24px 1px rgba(0, 0, 0, 0.48);
