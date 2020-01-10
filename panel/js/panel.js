@@ -67,7 +67,7 @@ var missPointTeam2 = 0;
 	}
 	
 	function pause_sound() {
-		var audio = new Audio('');
+	//	var audio = new Audio('');
 		audio.pause();
 		audio.currentTime = 0;
 	}
