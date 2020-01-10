@@ -69,7 +69,7 @@ var missPointTeam2 = 0;
 	function pause_sound() {
 		var audio = new Audio('');
 		audio.pause();
-		soundPlayer.currentTime = 0;
+		audio.currentTime = 0;
 	}
 	
 	function printMissPoint(){
