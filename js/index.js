@@ -28,7 +28,7 @@ var app = {
 			   "<div id='missTeam1_2' class= 'miss'>X</div>"+
 			   "<div id='missTeam1_1' class= 'miss'>X</div>"+
                "<div id='awardTeam1' data-team='1' class='button'>" + team1 + "</div>"+
-               "<div id='newQuestion' class='button'>AGÜ YARIŞIYOR</div>"+
+               "<div id='newQuestion' class='button'>Next Question</div>"+
                "<div id='awardTeam2' data-team='2'class='button'>" + team2 + "</div>"+
 			   "<div id='missTeam2_1' class= 'miss'>X</div>"+
 			   "<div id='missTeam2_2' class= 'miss'>X</div>"+
@@ -216,13 +216,13 @@ var app = {
 		var team2Score = document.getElementById("team2").innerHTML;
 		
 		if(team1Score>team2Score){
-			winner = "Kazanan " + team1 + "Takımı";
+			winner = team1 + " Wins!";
 		}
 		else if(team1Score<team2Score){
-			winner = "Kazanan " + team2 + "Takımı";
+			winner = team2 + " Wins!";
 		}
 		else{
-			winner = "Bu mükemmel yarışın kazananı her iki takım!";
+			winner = "It's a tie :(";
 		}
 		return winner;
 	}
