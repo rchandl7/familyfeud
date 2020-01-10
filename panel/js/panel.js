@@ -39,7 +39,8 @@ var missPointTeam2 = 0;
 		game = window.open('game.html', 'game', 'resizable=yes');
 		document.getElementById("buttonStart").disabled = false;
 		document.getElementById("buttonOpen").disabled = true;
-		document.getElementById("buttonClose").disabled = false;	
+		document.getElementById("buttonClose").disabled = false;
+		play_sound('ff_open.mp3');	
 	}
 	
 	function close_game_window() {
